@@ -1,6 +1,7 @@
 :root {
-  --background: #ffffff;
+  --background: #0f0f0f;
   --foreground: #171717;
+  --color: #9f9f9f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +18,17 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: var(--color);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 30px auto;
+  padding: 1rem;
 }
 
 * {
@@ -31,8 +38,15 @@ body {
 }
 
 a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
