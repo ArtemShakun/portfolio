@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.active {
+  color: #fff;
+}
+
+.contactButton {
+  background: #323232;
+}
