@@ -1,0 +1,48 @@
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  background: linear-gradient(90deg, #202020, #151515);
+  border: 1px solid #2a2a2a;
+  border-radius: 30px;
+}
+
+.imgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 35px 0;
+  margin-bottom: 16px;
+
+  background: linear-gradient(90deg, #202020, #151515);
+  border: 1px solid #2a2a2a;
+  border-radius: 30px;
+}
+
+.imgWrapper img {
+  cursor: pointer;
+}
+
+.signatureInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+
+.subTitle {
+  color: #bcbcbc;
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}

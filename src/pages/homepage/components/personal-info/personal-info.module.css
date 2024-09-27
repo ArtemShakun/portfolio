@@ -1,0 +1,57 @@
+.devInfoBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+  background: linear-gradient(90deg, #202020, #151515);
+  border: 1px solid #2a2a2a;
+  border-radius: 30px;
+}
+
+.userImg {
+  width: 225px;
+  height: 225px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.userInfoText {
+  position: relative;
+  max-width: 200px;
+}
+
+.userRole {
+  color: #bcbcbc;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 19px;
+}
+
+.userName {
+  font-size: 36px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.text {
+  margin-top: 10px;
+  color: #bcbcbc;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.buttonWrapper {
+  position: absolute;
+  bottom: -55px;
+  right: 0;
+}
