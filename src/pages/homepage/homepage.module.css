@@ -23,8 +23,51 @@
   gap: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .upperSection {
     grid-template-columns: 1fr;
+  }
+
+  .middleSection {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'blog profile'
+      'specialization specialization';
+  }
+
+  .middleSection > :nth-child(1) {
+    grid-area: blog;
+  }
+
+  .middleSection > :nth-child(2) {
+    grid-area: specialization;
+  }
+
+  .middleSection > :nth-child(3) {
+    grid-area: profile;
+  }
+
+  .bottomSection {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 530px) {
+  .middleSection {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: none;
+  }
+
+  .middleSection > :nth-child(1) {
+    grid-area: unset;
+  }
+
+  .middleSection > :nth-child(2) {
+    grid-area: unset;
+  }
+
+  .middleSection > :nth-child(3) {
+    grid-area: unset;
   }
 }

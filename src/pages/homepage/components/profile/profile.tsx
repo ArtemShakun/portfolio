@@ -4,12 +4,12 @@ import { ButtonComponent } from '@/components/button/button';
 import linkedinIcon from '@/img/soc/linkedin-icon.svg';
 import gitHubIcon from '@/img/soc/github-icon.svg';
 
-import styles from './profile.module.css';
+import styles from '../component.module.css';
 
 export const ProfileComponent = () => {
   return (
-    <div className={styles.blogContainer}>
-      <span className={styles.imgWrapper}>
+    <div className={styles.container}>
+      <span className={styles.imgWrapperProfile}>
         <Image src={linkedinIcon} alt="signature" width={50} height={50} />
         <Image src={gitHubIcon} alt="signature" width={50} height={50} />
       </span>

@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 import { ButtonComponent } from '@/components/button/button';
 import blogIcon from '@/img/blog_icon.png';
-import styles from './blog.module.css';
+import styles from '../component.module.css';
 
 export const BlogComponent = () => {
   return (
-    <div className={styles.blogContainer}>
+    <div className={styles.container}>
       <span className={styles.imgWrapper}>
         <Image src={blogIcon} alt="signature" width={150} height={120} />
       </span>

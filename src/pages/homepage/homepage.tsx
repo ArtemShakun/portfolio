@@ -21,7 +21,7 @@ export const HomePage = () => {
         <ProfileComponent />
       </div>
       <div className={styles.bottomSection}>
-        <TogetherBlock />
+        {/* <TogetherBlock /> */}
         <TogetherBlock />
       </div>
     </div>

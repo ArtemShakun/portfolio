@@ -4,7 +4,7 @@ import { ButtonComponent } from '@/components/button/button';
 import signatureImg from '@/img/signature.png';
 import myWorkImg from '@/img/my_works.png';
 
-import styles from './experience.module.css';
+import styles from '../component.module.css';
 
 export const ExperienceBlock = () => {
   return (
@@ -16,7 +16,7 @@ export const ExperienceBlock = () => {
           work and featured *
         </p>
       </div>
-      <div className={styles.moreInfoBlock}>
+      <div className={styles.container}>
         <Image src={signatureImg} alt="signature" width={200} height={120} />
         <div className={styles.signatureInfo}>
           <div>
@@ -26,7 +26,7 @@ export const ExperienceBlock = () => {
           <ButtonComponent />
         </div>
       </div>
-      <div className={styles.moreInfoBlock}>
+      <div className={styles.container}>
         <Image src={myWorkImg} alt="signature" width={200} height={120} />
         <div className={styles.signatureInfo}>
           <div>
