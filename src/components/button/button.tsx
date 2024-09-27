@@ -1,14 +1,15 @@
 import Link from 'next/link';
-import Image from 'next/image';
-
-import linkIcon from '@/img/link-icon.svg';
 
 import styles from './button.module.css';
 
-export const ButtonComponent = () => {
+type ButtonComponentProp = {
+  url: string;
+};
+
+export const ButtonComponent = ({ url }: ButtonComponentProp) => {
   return (
     <>
-      <Link href={'/'}>
+      <Link href={url}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"

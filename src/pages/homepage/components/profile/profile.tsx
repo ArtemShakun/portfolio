@@ -1,12 +1,17 @@
 import Image from 'next/image';
 
 import { ButtonComponent } from '@/components/button/button';
+import { blockInfo } from '@/types/homepage-type';
 import linkedinIcon from '@/img/soc/linkedin-icon.svg';
 import gitHubIcon from '@/img/soc/github-icon.svg';
 
 import styles from '../component.module.css';
 
-export const ProfileComponent = () => {
+type ProfileComponentProps = {
+  profile: blockInfo;
+};
+
+export const ProfileComponent = ({ profile }: ProfileComponentProps) => {
   return (
     <div className={styles.container}>
       <span className={styles.imgWrapperProfile}>
@@ -15,10 +20,10 @@ export const ProfileComponent = () => {
       </span>
       <div className={styles.signatureInfo}>
         <div>
-          <h3 className={styles.subTitle}>Stay with me</h3>
-          <h1 className={styles.title}>Profiles</h1>
+          <h3 className={styles.subTitle}>{profile.sub_title}</h3>
+          <h1 className={styles.title}>{profile.title}</h1>
         </div>
-        <ButtonComponent />
+        <ButtonComponent url={profile.link} />
       </div>
     </div>
   );
