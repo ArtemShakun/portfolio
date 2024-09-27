@@ -1,0 +1,40 @@
+{
+  "home": {
+    "userData": {
+      "name": "Artem Shakun.",
+      "role": "Frontend Developer",
+      "sub_title": "I'm a Frontend Developer based in Kyiv, Ukraine.",
+      "link": "./about"
+    },
+    "company_name": ["Astound", "Limestone Digital", "Berelax.com", "Vdalo"],
+    "more_about": {
+      "title": "Credentials",
+      "sub_title": "more about me",
+      "link": "/more-about"
+    },
+    "projects": {
+      "title": "Projects",
+      "sub_title": "showcase",
+      "link": "/project"
+    },
+    "blog": {
+      "title": "Blog",
+      "sub_title": "GFonts",
+      "link": "/blog"
+    },
+    "specialization": {
+      "title": "Services Offering",
+      "sub_title": "specialization",
+      "link": "/service"
+    },
+    "profile": {
+      "title": "Profiles",
+      "sub_title": "Stay with me",
+      "link": "/contact-me"
+    },
+    "together": {
+      "title": "Let&apos;s <br /> work <span>together</span>",
+      "link": "/contact-me"
+    }
+  }
+}
