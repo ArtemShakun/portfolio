@@ -6,7 +6,12 @@
       "sub_title": "I'm a Frontend Developer based in Kyiv, Ukraine.",
       "link": "./about"
     },
-    "company_name": ["Astound", "Limestone Digital", "Berelax.com", "Vdalo"],
+    "company_name": [
+      "Astound Digital",
+      "Limestone Digital",
+      "Berelax.com",
+      "Vdalo"
+    ],
     "more_about": {
       "title": "Credentials",
       "sub_title": "more about me",
@@ -36,5 +41,47 @@
       "title": "Let&apos;s <br /> work <span>together</span>",
       "link": "/contact-me"
     }
+  },
+  "about": {
+    "title": "self-summary",
+    "name": "Artem Shakun",
+    "description": "I am a front-end developer with 3 years of experience in building web applications. I have worked in international teams, participated in large-scale projects, and contributed to dynamic startup environments. I have also independently led projects, which enhanced my problem-solving and leadership skills. I am passionate about coding and constantly strive to improve my expertise.",
+    "experience": [
+      {
+        "id": 1,
+        "years": "june 2021 - february 2022",
+        "company_name": "Astound Digital",
+        "role": "Web developer"
+      },
+      {
+        "id": 2,
+        "years": "june 2022 - september 2023",
+        "company_name": "Limestone Digital",
+        "role": "Junior React Developer"
+      },
+      {
+        "id": 3,
+        "years": "january 2024 - to present",
+        "company_name": "Freelance",
+        "role": "React Developer"
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "years": "05.04 - 25.05.2021",
+        "name": "JS Boot Camp Astound Commerce"
+      },
+      {
+        "id": 2,
+        "years": "14.02 - 27.04.2022",
+        "name": "React Developers course Limestone Digital"
+      },
+      {
+        "id": 3,
+        "years": "05.06 - 25.07.2023",
+        "name": "Advanced React & Next.js Course - Udemy"
+      }
+    ]
   }
 }
