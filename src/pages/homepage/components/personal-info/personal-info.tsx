@@ -20,7 +20,7 @@ export const PersonalInfo = ({ userData }: PersonalInfoProps) => {
         <div className={styles.userInfoText}>
           <h3 className={styles.userRole}>{userData.role}</h3>
           <h1 className={styles.userName}>{userData.name}</h1>
-          <p className={styles.text}>{userData.sub_title}</p>
+          <p className={styles.text}>{userData.description}</p>
           <span className={styles.buttonWrapper}>
             <ButtonComponent url={userData.link} />
           </span>
