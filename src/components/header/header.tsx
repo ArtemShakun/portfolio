@@ -13,8 +13,8 @@ const Header: FC = () => {
       <div className={styles.logo}>LOGO</div>
       <nav>
         <ul className={styles.nav}>
-          <li className={isActive('/') ? styles.active : ''}>
-            <Link href="/">Home</Link>
+          <li className={isActive('/homepage') ? styles.active : ''}>
+            <Link href="/homepage">Home</Link>
           </li>
           <li className={isActive('/about') ? styles.active : ''}>
             <Link href="/about">About</Link>
@@ -28,7 +28,7 @@ const Header: FC = () => {
         </ul>
       </nav>
       <Link href="/contact" className={styles.contactButton}>
-        Let&apos;s talk
+        Download CV
       </Link>
     </header>
   );

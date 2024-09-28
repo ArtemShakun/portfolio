@@ -45,7 +45,7 @@
   "about": {
     "title": "self-summary",
     "name": "Artem Shakun",
-    "description": "I am a front-end developer with 3 years of experience in building web applications. I have worked in international teams, participated in large-scale projects, and contributed to dynamic startup environments. I have also independently led projects, which enhanced my problem-solving and leadership skills. I am passionate about coding and constantly strive to improve my expertise. My goal is to create seamless and user-friendly digital experiences. I believe that continuous learning is key to delivering high-quality solutions.",
+    "description": "I am a front-end developer with 3 years of experience in building web applications. I have worked in international teams, participated in large-scale projects, and contributed to dynamic startup environments. I have also independently led projects, which enhanced my problem-solving and leadership skills. I am passionate about coding and constantly strive to improve my expertise.",
     "experience": [
       {
         "id": 1,
@@ -61,14 +61,8 @@
       },
       {
         "id": 3,
-        "years": "january 2024 - may 2024",
+        "years": "january 2024 - to present",
         "company_name": "Freelance",
-        "role": "React Developer"
-      },
-      {
-        "id": 4,
-        "years": "june 2024 - to present",
-        "company_name": "Vdalo",
         "role": "React Developer"
       }
     ],
@@ -82,6 +76,11 @@
         "id": 2,
         "years": "14.02 - 27.04.2022",
         "name": "React Developers course Limestone Digital"
+      },
+      {
+        "id": 3,
+        "years": "05.06 - 25.07.2023",
+        "name": "Advanced React & Next.js Course - Udemy"
       }
     ]
   }

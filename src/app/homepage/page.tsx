@@ -8,7 +8,7 @@ const fetchData = async () => {
   return data;
 };
 
-export default async function About() {
+export default async function Homepage() {
   const data = await fetchData();
   return <AboutPage data={data} />;
 }
