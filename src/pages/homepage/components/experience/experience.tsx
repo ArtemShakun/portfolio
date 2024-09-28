@@ -1,27 +1,21 @@
-import { MoreAbout } from './more-about';
-import { Projects } from './projects';
-import { blockInfo } from '@/types/homepage-type';
+import { experience } from '@/types/homepage-type';
+import styles from './experience.module.css';
 
-import styles from '../component.module.css';
-
-type ExperienceBlockProp = {
-  companyName: string[];
-  moreAbout: blockInfo;
-  projects: blockInfo;
+type ExperienceBlockProps = {
+  experience: experience[];
 };
 
-export const ExperienceBlock = ({
-  companyName,
-  moreAbout,
-  projects,
-}: ExperienceBlockProp) => {
+export const ExperienceBlock = ({ experience }: ExperienceBlockProps) => {
   return (
-    <div className={styles.experienceBlock}>
-      <div className={styles.projectsAnimation}>
-        <p>{companyName.map(item => `${item} * `)}</p>
-      </div>
-      <MoreAbout data={moreAbout} />
-      <Projects data={projects} />
+    <div className={styles.container}>
+      <h1 className={styles.title}>Experiance</h1>
+      {experience.map(item => (
+        <ul className={styles.blockInfo} key={item.id}>
+          <li className={styles.years}>{item.years}</li>
+          <li className={styles.role}>{item.role}</li>
+          <li className={styles.companyName}>{item.company_name}</li>
+        </ul>
+      ))}
     </div>
   );
 };

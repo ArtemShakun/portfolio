@@ -1,73 +1,108 @@
 .container {
-  display: grid;
-  max-width: 1170px;
-  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   gap: 20px;
 }
-/* GRID */
+
 .upperSection {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 370px 1fr;
+  margin-top: 90px;
   gap: 20px;
 }
 
 .middleSection {
   display: grid;
-  grid-template-columns: 263px 1fr 263px;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
 .bottomSection {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 280px 1fr 280px;
+  margin-bottom: 100px;
   gap: 20px;
 }
 
-@media (max-width: 900px) {
+.experience {
+  height: 250px;
+  border: 1px solid rgb(114, 250, 159);
+}
+.education {
+  height: 250px;
+  border: 1px solid rgb(114, 250, 159);
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  max-width: 373px;
+  overflow: hidden;
+
+  background: linear-gradient(90deg, #202020, #151515);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid #2a2a2a;
+  border-radius: 30px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  max-width: 325px;
+  max-height: 315px;
+  /* object-fit: cover; */
+  padding: 25px;
+}
+
+@media (max-width: 950px) {
   .upperSection {
+    display: grid;
     grid-template-columns: 1fr;
-  }
-
-  .middleSection {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      'blog profile'
-      'specialization specialization';
-  }
-
-  .middleSection > :nth-child(1) {
-    grid-area: blog;
-  }
-
-  .middleSection > :nth-child(2) {
-    grid-area: specialization;
-  }
-
-  .middleSection > :nth-child(3) {
-    grid-area: profile;
+    gap: 20px;
   }
 
   .bottomSection {
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .photo {
+    height: 365px;
+    margin: 0 auto;
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 600px) {
   .middleSection {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: none;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 584px) {
+  .bottomSection {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'profile'
+      'projects'
+      'together';
   }
 
-  .middleSection > :nth-child(1) {
-    grid-area: unset;
+  .bottomSection > :nth-child(1) {
+    grid-area: profile;
   }
 
-  .middleSection > :nth-child(2) {
-    grid-area: unset;
+  .bottomSection > :nth-child(2) {
+    grid-area: together;
   }
 
-  .middleSection > :nth-child(3) {
-    grid-area: unset;
+  .bottomSection > :nth-child(3) {
+    grid-area: projects;
   }
 }

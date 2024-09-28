@@ -1,8 +1,8 @@
-import { Education } from '@/types/aboutpage-type';
+import { education } from '@/types/homepage-type';
 import styles from './education.module.css';
 
 type EducationBlockProps = {
-  education: Education[];
+  education: education[];
 };
 
 export const EducationBlock = ({ education }: EducationBlockProps) => {
