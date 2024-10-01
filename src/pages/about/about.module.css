@@ -1,0 +1,180 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 0 90px;
+}
+
+.userContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 20px;
+  left: 0;
+  width: 35%;
+  height: 650px;
+  padding: 25px;
+  background: linear-gradient(90deg, #202020, #151515);
+  border: 1px solid #2a2a2a;
+  border-radius: 30px;
+}
+
+.userInfo {
+  width: 58%;
+}
+
+.photoBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.photo {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+}
+
+.userInfoBlock {
+  margin-top: 45px;
+}
+
+.name {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.mail {
+  color: #bcbcbc;
+  opacity: 0.5;
+  font-size: 16px;
+  text-align: center;
+}
+
+.socialMediaBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.socialMediaBlock li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+  height: 51px;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.01)
+  );
+  border: 1px solid #2a2a2a;
+  border-radius: 30px;
+}
+
+.socialBtn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #323232;
+  color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  line-height: 1.56;
+  margin: 35px 0 50px;
+}
+
+.infoBlock {
+  margin-top: 20px;
+}
+
+.years {
+  color: #bcbcbc;
+  opacity: 0.6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.role {
+  font-size: 18px;
+  color: #5b78f6;
+  margin: 8px 0;
+}
+
+.companyName {
+  font-size: 14px;
+  color: #bcbcbc;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.skillsTools {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillsToolsItem {
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 16px;
+  margin-bottom: 4px;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .userContact {
+    display: flex;
+    position: static;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+
+  .photoBlock {
+    align-items: center;
+    max-width: 90%;
+    height: auto;
+  }
+
+  .photo {
+    max-width: 100%;
+  }
+
+  .name {
+  }
+
+  .mail {
+  }
+
+  .userInfo {
+    width: 100%;
+    margin-top: 100px;
+  }
+}

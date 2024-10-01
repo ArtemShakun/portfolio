@@ -1,4 +1,6 @@
 export type AboutInterface = {
+  name: string;
+  mail: string;
   title: string;
   description: string;
   experience: Experience[];
@@ -19,7 +21,7 @@ export type Experience = {
 export type Education = {
   id: number;
   years: string;
-  name: string;
+  role: string;
   diploma: string;
   description: string;
 };

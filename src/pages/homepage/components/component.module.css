@@ -46,6 +46,18 @@
   border-radius: 30px;
 }
 
+.imgWrapperProfile li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+  height: 51px;
+  background: linear-gradient(90deg, #202020, #151515);
+  border: 1px solid #2a2a2a;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
 .signatureInfo {
   display: flex;
   justify-content: space-between;

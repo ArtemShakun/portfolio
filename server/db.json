@@ -81,6 +81,8 @@
     }
   },
   "about": {
+    "name": "Shakun Artem",
+    "mail": "@ArtemShakun",
     "title": "About Me",
     "description": "I am a front-end developer with 3 years of experience in building web applications. I have worked in international teams, participated in large-scale projects, and contributed to dynamic startup environments. I have also independently led projects, which enhanced my problem-solving and leadership skills. I am passionate about coding and constantly strive to improve my expertise.",
     "experience": [
@@ -110,28 +112,28 @@
       {
         "id": 1,
         "years": "01.09.2008 - 01.06.2012",
-        "name": "National Academy of Internal Affairs",
+        "role": "National Academy of Internal Affairs",
         "diploma": "Specialist, Law",
         "description": ""
       },
       {
         "id": 2,
         "years": "05.04 - 25.05.2021",
-        "name": "JS Boot Camp Astound Commerce",
+        "role": "JS Boot Camp Astound Commerce",
         "diploma": "Certificate",
         "description": ""
       },
       {
         "id": 3,
         "years": "14.02 - 27.04.2022",
-        "name": "React Developers course Limestone Digital",
+        "role": "React Developers course Limestone Digital",
         "diploma": "Certificate",
         "description": ""
       },
       {
         "id": 4,
         "years": "05.06 - 25.07.2023",
-        "name": "Advanced React & Next.js Course - Udemy",
+        "role": "Advanced React & Next.js Course - Udemy",
         "diploma": "Certificate",
         "description": ""
       }

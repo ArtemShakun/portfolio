@@ -14,10 +14,17 @@ type ProfileComponentProps = {
 export const ProfileComponent = ({ profile }: ProfileComponentProps) => {
   return (
     <div className={styles.container}>
-      <span className={styles.imgWrapperProfile}>
-        <Image src={linkedinIcon} alt="signature" width={50} height={50} />
-        <Image src={gitHubIcon} alt="signature" width={50} height={50} />
-      </span>
+      <ul className={styles.imgWrapperProfile}>
+        <li>
+          <Image src={linkedinIcon} alt="signature" width={25} height={25} />
+        </li>
+        <li>
+          <Image src={gitHubIcon} alt="signature" width={25} height={25} />
+        </li>
+        <li>
+          <Image src={linkedinIcon} alt="signature" width={25} height={25} />
+        </li>
+      </ul>
       <div className={styles.signatureInfo}>
         <div>
           <h3 className={styles.subTitle}>{profile.sub_title}</h3>
