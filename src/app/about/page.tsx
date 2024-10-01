@@ -1,4 +1,4 @@
-import { HomePage } from '@/pages/homepage/homepage';
+import { AboutPage } from '@/pages/about/about';
 
 const fetchData = async () => {
   const response = await fetch('http://localhost:3001/about', {
@@ -8,7 +8,7 @@ const fetchData = async () => {
   return data;
 };
 
-export default async function Homepage() {
+export default async function About() {
   const data = await fetchData();
-  return <HomePage data={data} />;
+  return <AboutPage data={data} />;
 }
