@@ -53,6 +53,18 @@ a:hover {
   color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-size: inherit;
+  font-weight: normal;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

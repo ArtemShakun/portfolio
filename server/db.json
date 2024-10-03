@@ -58,7 +58,7 @@
     "projects": {
       "title": "Projects",
       "sub_title": "showcase",
-      "link": "/project"
+      "link": "/projects"
     },
     "blog": {
       "title": "Blog",
@@ -141,5 +141,33 @@
     "skills": ["JavaScript", "TypeScript", "React", "Redux", "Next.js"],
     "tools": ["Jira", "Confluence", "Trello", "Figma"],
     "language": "English - B1"
+  },
+  "projects": {
+    "title": "All Projects",
+    "last_project": [
+      { "id": 1, "photo": "", "title": "Photography", "sub_title": "Diesel" },
+      { "id": 2, "photo": "", "title": "Photography", "sub_title": "Diesel H1" }
+    ],
+    "all_project": [
+      { "id": 1, "photo": "", "title": "Photography", "sub_title": "Diesel H" },
+      {
+        "id": 2,
+        "photo": "",
+        "title": "Photography",
+        "sub_title": "Diesel H1"
+      },
+      {
+        "id": 3,
+        "photo": "",
+        "title": "Photography",
+        "sub_title": "Diesel H1"
+      },
+      {
+        "id": 4,
+        "photo": "",
+        "title": "Photography",
+        "sub_title": "Diesel H1"
+      }
+    ]
   }
 }

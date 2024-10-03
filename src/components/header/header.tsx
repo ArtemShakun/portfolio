@@ -19,8 +19,8 @@ const Header: FC = () => {
           <li className={isActive('/about') ? styles.active : ''}>
             <Link href="/about">About</Link>
           </li>
-          <li className={isActive('/works') ? styles.active : ''}>
-            <Link href="/works">Works</Link>
+          <li className={isActive('/projects') ? styles.active : ''}>
+            <Link href="/projects">Works</Link>
           </li>
           <li className={isActive('/contact') ? styles.active : ''}>
             <Link href="/contact">Contact</Link>

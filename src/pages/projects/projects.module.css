@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 65px 0 104px;
+  gap: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 35%;
+}
+.left > *:last-child {
+  flex-grow: 1;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 20px;
+}
+
+.projectCartsBlock {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px 16px 26px 16px;
+  background: linear-gradient(90deg, #202020, #151515);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.controlBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textBlock {
+  flex: 1;
+}
+
+.title {
+  color: #bcbcbc;
+  opacity: 0.5;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+.subtitle {
+  font-size: 22px;
+  color: #ffffff;
+  opacity: 0.9;
+  font-weight: 500;
+  margin: 0;
+}
+
+.titleBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.mainTitle {
+  margin: 20px 0 30px;
+  color: #ffffff;
+  font-size: 74px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -01px;
+}
+
+@media (max-width: 1070px) {
+  .mainTitle {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .mainTitle {
+    font-size: 54px;
+  }
+}
+@media (max-width: 850px) {
+  .titleBlock img {
+    width: 30px;
+    height: 30px;
+  }
+  .mainTitle {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 572px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    gap: 26px;
+    margin-top: 120px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .projectCartsBlock {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 26px;
+  }
+
+  .titleBlock {
+    position: absolute;
+    top: 0;
+  }
+}
