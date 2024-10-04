@@ -169,5 +169,24 @@
         "sub_title": "Diesel H1"
       }
     ]
+  },
+  "contact": {
+    "contacts_data": [
+      {
+        "id": 1,
+        "title": "Mail",
+        "info": "artem.shakun.91@gmail.com"
+      },
+      {
+        "id": 2,
+        "title": "Phone",
+        "info": "+38 099 608 58 31"
+      },
+      {
+        "id": 3,
+        "title": "Location",
+        "info": "Kyiv"
+      }
+    ]
   }
 }
